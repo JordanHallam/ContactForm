@@ -1,0 +1,25 @@
+﻿<h1>Contact Us Form</h1>
+<form action="../Home/SaveContactInformation" method="post">
+    <label>First Name</label>
+    <br />
+    <input type="text" name="FirstName" />
+    <br />
+    <label>Last Name</label>
+    <br />
+    <input type="text" name="LastName" />
+    <br />
+    <label>Email</label>
+    <br />
+    <input type="email" required pattern="([\w\d.]{1,29}[\W\D\S][\w\d]{5,10}[\.][a-z]{2,3})" name="Email" />
+    <br />
+    <label>Message</label>
+    <br />  
+    <textarea name="Message">
+    </textarea>
+    <br />
+    <button type="submit">Submit</button>
+</form>
+
+<footer >
+    <p class="text-muted">whatever it takes | work hard, play hard | we are a team | be fearless | foster growth in others | care | be positive </p>
+</footer>
